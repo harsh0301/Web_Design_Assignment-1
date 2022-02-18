@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+      <!-- 先引入jquery  -->
+      <script src="js/jquery.min.js"></script>
+   <script src="js/jsjs.js"></script>
+    <title>Document</title>
+</head>
+<body style="background-image: url(banner.jpg); background-attachment: fixed;">
+    <div class="header " >
+        <div class="logo">
+            <img src="starbuck.PNG" alt="logologologo">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Cafe</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="About.html">About</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="products w">
+        <div class="p-img"><a href="#"></a><span style="font-size: large; font-weight: 900; color: wheat;">Price:</span><input type="text" id="pprice" value="10" ></div>
+        
+        <div class="p-sel">
+            <h2>Options</h2>
+            <div class="size-sel">
+                <button id="ssz" class="lb">Short</button>
+                <button id="tsz" class="mb">Tall</button>
+                <button id="gsz" class="rb">Grande</button>
+            </div>
+            <div class="ice-sel">
+                <button id="sf" class="lb">No Sugar</button>
+                <button id="ls" class="mb">Normal</button>
+                <button id="nms" class="rb">Extra</button>
+            </div>
+            <div class="sugar-sel">
+                <button id="icf" class="lb">No Ice</button>
+                <button id="lic" class="mb">Normal Ice</button>
+                <button id="nic" class="rb">Extra Ice</button>
+            </div>
+            <div class="quantity-sel">
+                <button id="reduce" class="lb" style="float: left; font-size: large; font-weight: 800;">-</button>
+                <div class="MyQuantity" ><input type="text" value="1"></div>
+                <button id="add" class="rb" style="float: left; font-size: large; font-weight: 800;">+</button>
+            </div>
+            <div class="Message">
+                <input type="text" value="" id="MyMessage">
+                <button class="Checkout">Checkout</button>
+            </div>
+        </div>
+        <div class="p-intr">
+            <h2 id="pname">Americano</h2>
+            <p>Caffè Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee. Its strength varies with the number of shots of espresso and amount of water added.</p>
+            <button class="favor"></button>
+            <p class="testvalue"></p>
+        </div>
+    </div>
+    <div class="checkoutpage w">
+        <h2 id="finalpage">Receipt</h2>
+        <ul>
+            <li><span>Size:</span><input id="sizeinput" type="text"></li>
+            <li><span>Sugar:</span><input id="sugarinput" type="text"></li>
+            <li><span>Ice:</span><input id="iceinput" type="text"></li>
+            <li><span>Quantity</span><input id="quantityinput" type="text"></li>
+            <li><span>TotalPrice</span><input id="totalprice" type="text"></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="w">            
+            <div class="link">
+                <dl>
+                    <dt></dt>
+                    <dd><a href="#">About</a></dd>
+                    <dd><a href="#">Contact</a></dd>
+                    <dd><a href="#">Privacy Policy</a></dd>
+                    <dd><a href="#">Cookie Preference</a></dd>
+                </dl>             
+            </div>
+        </div>
+
+    </div>
+    <div class="jumplink">
+        <ul>
+            <li><a href="#"><img src="face.PNG" alt="f"></a></li>
+            <li><a href="#"><img src="tw.PNG" alt="t"></a></li>
+
+            <li><a href="#"><img src="email.PNG" alt="E"></a></li>
+        </ul>
+    </div>
+</body>
+</html>
